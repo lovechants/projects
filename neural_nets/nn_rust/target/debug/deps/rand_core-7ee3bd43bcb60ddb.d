@@ -1,0 +1,11 @@
+/Users/jayden/Code/projects/neural_nets/nn_rust/target/debug/deps/librand_core-7ee3bd43bcb60ddb.rmeta: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jayden/Code/projects/neural_nets/nn_rust/target/debug/deps/librand_core-7ee3bd43bcb60ddb.rlib: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jayden/Code/projects/neural_nets/nn_rust/target/debug/deps/rand_core-7ee3bd43bcb60ddb.d: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs:

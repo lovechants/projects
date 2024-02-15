@@ -19,7 +19,7 @@ impl Matrix {
         }
     }
     
-    pub fun random(rows:usize, cols: usize) -> Matrix{
+    pub fn random(rows:usize, cols: usize) -> Matrix{
         let mut rng = thread_rng();
 
         let mut res = Matrix::zeros(rows, cols);
@@ -55,7 +55,7 @@ impl Matrix {
             for j in 0..other.cols{
                 let mut sum = 0.0;
                 for k in 0..self.cols{
-                    sum += selfdata[i][k] * other.data[k][j]
+                    sum += self.data[i][k] * other.data[k][j]
                 }
 
                 res.data[i][j] = sum
@@ -110,10 +110,10 @@ impl Matrix {
         res
     }
 
-    pub fn map(&mut self, function: &dyn FN(f64) -> f64) -> Matrix {
+    pub fn map(&mut self, function: &dyn Fn(f64) -> f64) -> Matrix {
         // apply every individual element to a function 
         // put result back into the matrix 
-        Matrix::from((self.data).clone().into_iter()).map(|row| row.into_iter().map(|value| function(value)).collect())        
+        Matrix::from((self.data).clone().into_iter().map(|row| row.into_iter().map(|value| function(value)).collect()).collect(),)        
     }
 
     pub fn transpose(&mut self) -> Matrix {
@@ -123,5 +123,7 @@ impl Matrix {
                 res.data[j][i] = self.data[i][j];
             }
         }
+        
+        res 
     }
 }
