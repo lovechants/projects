@@ -1,0 +1,11 @@
+/Users/jayden/Code/projects/rust/actix_test/target/debug/deps/libcrc32fast-384851b5fbd895cb.rmeta: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/jayden/Code/projects/rust/actix_test/target/debug/deps/libcrc32fast-384851b5fbd895cb.rlib: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/jayden/Code/projects/rust/actix_test/target/debug/deps/crc32fast-384851b5fbd895cb.d: /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs:
+/Users/jayden/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs:

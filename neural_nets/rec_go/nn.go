@@ -316,49 +316,49 @@ func getCSVHeaderLength(filePath string) (int, error) {
 
 
 func makeInputAndLabels(fileName string) (*mat.Dense, *mat.Dense) {
-  f, err := os.Open(fileName)
-  if err != nil {
-    log.Fatal(err)
-  }
-  defer f.Close()
-  reader := csv.NewReader(f)
-  reader.FieldsPerRecord, err = getCSVHeaderLength(fileName)
-  if err != nil {
-    fmt.Println("Header Error:", err)
-   }
-  
-  
-  rawCSVData, err := reader.ReadAll()
-  if err != nil {
-    log.Fatal(err)
-  }
-
-  inputsData := make([]float64, 4*len(rawCSVData))
-  labelsData := make([]float64, 3*len(rawCSVData))
-
-  var inputsIndex int
-  var labelsIndex int 
-
-  for index, record := range rawCSVData {
-    if index == 0{
-      continue
-    }
-    for i, val := range record {
-      parsedVal, err := strconv.ParseFloat(val, 64)
-      if err != nil {
+    f, err := os.Open(fileName)
+    if err != nil {
         log.Fatal(err)
-      }
-
-      if i == 4 || i == 5 || i == 6 {
-        labelsData[labelsIndex] = parsedVal
-        labelsIndex++
-        continue
-      }
-      inputsData[inputsIndex] = parsedVal
-      inputsIndex++
     }
-  }
-  inputs := mat.NewDense(len(rawCSVData), 4, inputsData)
-  labels := mat.NewDense(len(rawCSVData), 3, inputsData)
-  return inputs, labels
+    defer f.Close()
+
+    reader := csv.NewReader(f)
+    header, err := reader.Read() // Reading header
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    numLabelColumns := len(header) // All columns are labels
+
+    rawCSVData, err := reader.ReadAll()
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // Since all columns are labels, there are no input features.
+    labelsData := make([]float64, numLabelColumns*(len(rawCSVData)-1))
+
+    var labelsIndex int
+
+    for idx, record := range rawCSVData {
+        if idx == 0 { // Skip header
+            continue
+        }
+
+        for _, val := range record {
+            parsedVal, err := strconv.ParseFloat(val, 64)
+            if err != nil {
+                log.Fatal(err)
+            }
+
+            labelsData[labelsIndex] = parsedVal
+            labelsIndex++
+        }
+    }
+
+    // Creating an empty matrix for inputs as there are no input features
+    inputs := mat.NewDense(len(rawCSVData)-1, 0, nil)
+    // Creating the labels matrix
+    labels := mat.NewDense(len(rawCSVData)-1, numLabelColumns, labelsData)
+    return inputs, labels
 }
