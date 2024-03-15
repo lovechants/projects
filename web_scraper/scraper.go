@@ -1,7 +1,7 @@
 package main 
 import (
   "fmt"
-  //"github.com/gocolly/colly"
+  "github.com/gocolly/colly"
   "strings"
   "os"
   "bufio"
@@ -9,7 +9,7 @@ import (
 )
 
 func main()  {
-  //c := colly.NewCollector()
+  c := colly.NewCollector()
   base := "https://www.statmuse.com/"
   sport_prompt := "Input sport: NBA, NFL, EPL, NHL, MLB"
   fmt.Println(sport_prompt)
@@ -39,7 +39,8 @@ func main()  {
   combinedString := strings.Join(arr, "-")
   var url string 
   url = base + sport + "/ask/" + combinedString
-
+  c.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" 
   fmt.Println(url)
-  //c.Visit(url)
+  c.Visit(url)
+
 }

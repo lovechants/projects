@@ -1,0 +1,89 @@
+,title,rating,genre,medium
+0,Kung Fu Panda 4,6.8,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family']",movie
+1,Argylle,6.1,"['Action', 'Adventure', 'Comedy']",movie
+2,No Way Up,6.0,"['Action', 'Horror', 'Thriller']",movie
+3,Poor Things,7.9,"['Science Fiction', 'Romance', 'Comedy']",movie
+4,Megamind vs. the Doom Syndicate,5.5,"['Animation', 'Comedy', 'Science Fiction']",movie
+5,Code 8 Part II,6.6,"['Science Fiction', 'Action', 'Crime']",movie
+6,Oppenheimer,8.1,"['Drama', 'History']",movie
+7,Dune: Part Two,8.4,"['Science Fiction', 'Adventure']",movie
+8,Migration,7.6,"['Animation', 'Action', 'Adventure', 'Comedy', 'Family']",movie
+9,Land of Bad,6.9,"['Action', 'Thriller', 'War']",movie
+10,"The Pig, the Snake and the Pigeon",7.6,"['Action', 'Crime']",movie
+11,Damsel,7.3,"['Fantasy', 'Adventure', 'Action']",movie
+12,Anyone But You,7.0,"['Comedy', 'Romance']",movie
+13,Meteor,5.4,"['Science Fiction', 'Thriller']",movie
+14,The Thundermans Return,7.6,"['Family', 'Science Fiction', 'Action', 'Comedy']",movie
+15,Jaque Mate,4.7,"['Action', 'Comedy']",movie
+16,Dune,7.8,"['Science Fiction', 'Adventure']",movie
+17,Wonka,7.2,"['Comedy', 'Family', 'Fantasy']",movie
+18,Ruthless,6.6,"['Action', 'Thriller']",movie
+19,The Beekeeper,7.5,"['Action', 'Thriller', 'Drama']",movie
+20,Watch What Happens Live with Andy Cohen,5.2,"['Talk', 'Comedy']",show
+21,"Gute Zeiten, schlechte Zeiten",6.2,"['Drama', 'Soap']",show
+22,Binnelanders,5.9,['Soap'],show
+23,The Late Show with Stephen Colbert,6.5,"['Comedy', 'Talk']",show
+24,Tomorrow Is Ours,6.1,"['Crime', 'Drama']",show
+25,Prostřeno!,6.2,['Reality'],show
+26,The Jennifer Hudson Show,6.5,['Talk'],show
+27,Chronicles of the Sun,7.3,['Soap'],show
+28,Tagesschau,6.9,['News'],show
+29,The Kelly Clarkson Show,6.2,['Talk'],show
+30,Sturm der Liebe,7.0,"['Drama', 'Soap']",show
+31,The Daily Show,6.3,"['News', 'Comedy']",show
+32,Great Minds,5.3,"['Talk', 'Documentary']",show
+33,Lang Leve de Liefde,2.7,['Reality'],show
+34,Na lovu,8.0,"['Reality', 'Family']",show
+35,Unpredictable Family,6.7,"['Family', 'Comedy']",show
+36,Ulice,3.3,"['Drama', 'Comedy']",show
+37,Suidooster,8.0,['Soap'],show
+38,Barbara Karlich – Talk um 4,3.5,['Talk'],show
+39,Here it all begins,7.1,"['Soap', 'Drama']",show
+40,RGG Land,10.0,['Card & Board Game'],game
+42,Blood on the Clocktower,10.0,"['Role-playing (RPG)', 'Strategy', 'Card & Board Game']",game
+43,Apes vs Helium,10.0,['Shooter'],game
+44,Maxon Petting Simulator,10.0,['Simulator'],game
+45,Outer Wilds: Archaeologist Edition,10.0,"['Puzzle', 'Adventure', 'Indie']",game
+46,Final Fantasy VII Rebirth,10.0,"['Role-playing (RPG)', 'Adventure']",game
+47,The Last of Us Part II: Remastered,9.997011952191235,"['Shooter', 'Adventure']",game
+48,MLB Power Pros 2008,9.993781094527364,"['Simulator', 'Sport']",game
+49,Goblin Sword,9.986292423296558,"['Platform', 'Role-playing (RPG)', 'Adventure']",game
+50,Fuga: Melodies of Steel,9.974465463489473,"['Role-playing (RPG)', 'Simulator', 'Strategy']",game
+51,Scaler,9.967206246872491,['Platform'],game
+52,Pokémon Unbound,9.964585933924955,"['Role-playing (RPG)', 'Turn-based strategy (TBS)', 'Adventure']",game
+53,Metal Gear Solid: The Legacy Collection,9.958883290788553,['Adventure'],game
+54,Hrot,9.95472378248047,"['Shooter', 'Indie']",game
+55,Grand Theft Auto V: Special Edition,9.951705677611246,"['Shooter', 'Racing', 'Sport']",game
+56,Angband,9.944831864192917,"['Role-playing (RPG)', ""Hack and slash/Beat 'em up""]",game
+57,Anstoss 3,9.934094693465834,"['Simulator', 'Sport']",game
+58,Umineko no Naku Koro ni Chiru,9.92724934151213,"['Adventure', 'Visual Novel']",game
+59,SOCOM: US Navy SEALs,9.91360195286091,"['Shooter', 'Simulator', 'Strategy', 'Tactical']",game
+60,Pokémon Infinite Fusion,9.907961032424408,"['Role-playing (RPG)', 'Adventure']",game
+61,Gwent: Iron Judgment,9.899080006230562,"['Strategy', 'Card & Board Game']",game
+62,Darkest Dungeon II,9.89563599511953,"['Role-playing (RPG)', 'Strategy', 'Turn-based strategy (TBS)', 'Tactical', 'Adventure', 'Indie']",game
+63,Gwent: Crimson Curse,9.881135894418323,"['Strategy', 'Card & Board Game']",game
+64,The Witcher 3: Wild Hunt - Game of the Year Edition,9.877542692048356,"['Role-playing (RPG)', 'Adventure']",game
+65,Tomb Raider I•II•III Remastered,9.865965507059679,"['Shooter', 'Puzzle', 'Strategy', 'Adventure']",game
+66,The Witcher 3: Wild Hunt - Complete Edition,9.864751366565985,"['Role-playing (RPG)', 'Adventure']",game
+67,Jurassic Park,9.849095699205261,"['Shooter', 'Adventure']",game
+68,Hiveswap: Act 1,9.837851535905765,"['Point-and-click', 'Puzzle', 'Role-playing (RPG)', 'Adventure', 'Indie']",game
+69,Space Station 13,9.830660314826442,"['Role-playing (RPG)', 'Simulator']",game
+70,Kingdom Hearts II Final Mix+,9.811260606241191,"['Role-playing (RPG)', 'Adventure']",game
+71,Rolling Gunner,9.8,"['Shooter', 'Indie', 'Arcade']",game
+72,Castlevania Advance Collection,9.797937660065525,"['Platform', 'Role-playing (RPG)', 'Adventure']",game
+73,Battlefield 3: Premium Edition,9.782310884939111,['Shooter'],game
+74,The Elder Scrolls V: Skyrim - Anniversary Edition,9.780452883201544,"['Role-playing (RPG)', 'Adventure']",game
+75,Dragon Quest VIII: Journey of the Cursed King,9.763601592544815,"['Role-playing (RPG)', 'Strategy', 'Adventure']",game
+76,Wizardry: Bane of the Cosmic Forge,9.763324275236554,"['Role-playing (RPG)', 'Adventure']",game
+77,Streets of Rage Remake,9.760361153217762,"[""Hack and slash/Beat 'em up""]",game
+78,Metal Gear Solid: Snake Eater 3D,9.75666974435832,"['Shooter', 'Adventure']",game
+79,Star Realms,9.753438525280737,"['Strategy', 'Turn-based strategy (TBS)', 'Card & Board Game']",game
+80,Kirka.io,9.73806275579809,['Shooter'],game
+81,Sekiro: Shadows Die Twice - GOTY Edition,9.732933245928008,"['Role-playing (RPG)', ""Hack and slash/Beat 'em up"", 'Adventure']",game
+82,Final Fantasy XIV: Complete Edition,9.722851898435376,"['Role-playing (RPG)', 'Adventure']",game
+83,Catan Universe,9.71764207987475,"['Strategy', 'Quiz/Trivia', 'Card & Board Game']",game
+84,Bloodborne: Game of the Year Edition,9.710452523564761,['Role-playing (RPG)'],game
+85,Fear & Hunger 2: Termina,9.703529293023967,"['Role-playing (RPG)', 'Indie']",game
+86,Leisure Suit Larry: Wet Dreams Dry Twice,9.701571403188533,"['Point-and-click', 'Puzzle', 'Adventure']",game
+87,Burnhouse Lane,9.70055788426593,"['Point-and-click', 'Puzzle', 'Adventure']",game
+88,Venture Kid,9.7,"['Platform', 'Adventure', 'Indie', 'Arcade']",game
