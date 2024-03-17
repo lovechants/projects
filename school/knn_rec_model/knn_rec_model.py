@@ -6,11 +6,11 @@ from sklearn.preprocessing import StandardScaler
 from scipy.spatial import distance
 import ast  # tokenization
 import pandas as pd
-import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib import cm
+
 # Keys
 # Movies and TV database key
 
@@ -26,8 +26,6 @@ token = get_token(id, secret)
 
 data = process_data(k, id, secret, token)
 data.to_csv("final_test_rec.csv", index=False)
-
-print(len(data))
 
 
 def safe_literal_eval(s):
@@ -66,6 +64,7 @@ def weighted_distance(point_a, point_b):
     return rating_dist + other_features_dist + medium_dist
 
 
+# if LSP throws error, sklearn handles this whem it is ran so no need to worry about the error
 knn = NearestNeighbors(n_neighbors=7, metric=weighted_distance)
 knn.fit(features_scaled)
 
@@ -81,7 +80,8 @@ def get_user_profile(genres, preference):
     return user_profile
 
 
-# Example user preference
+# Example user preferences
+# For now this is where to edit to change parameters in the model
 user_preference = {
     "rating": 8.5,
     "liked_genres": ["Action", "Adventure", "Fantasy", "RPG"],
@@ -114,10 +114,8 @@ def is_user_preference_weak(preference):
 
 
 def get_exploratory_recommendations(data, n_recommendations=10):
-    # Select a random sample of items for a broader exploration
     random_sample = data.sample(n=n_recommendations * 2)
 
-    # Prioritize diversity: Aim for a mix of genres, mediums, and possibly novelty
     diverse_items = []
     seen_genres = set()
     seen_mediums = set()
@@ -128,7 +126,6 @@ def get_exploratory_recommendations(data, n_recommendations=10):
         genre = tuple(row["genre"])  # Convert list to tuple for set operations
         medium = row["medium"]
 
-        # Check if this item adds diversity
         if genre not in seen_genres or medium not in seen_mediums:
             diverse_items.append(row)
             seen_genres.add(genre)
@@ -198,8 +195,9 @@ else:
 
 
 # Visualizations
+# Uncomment this out for visualization to show TODO -> Abstract into a different file
 
-
+"""
 # Neutral user profile
 neutral_user_preference = {
     "rating": 5.0,  # Neutral rating
@@ -234,6 +232,8 @@ preferred_recommendations.reset_index(drop=True, inplace=True)
 neutral_indices = neutral_recommendations.index
 preferred_indices = preferred_recommendations.index
 
+
+# These features did not get implement yet
 # Prepare the indices for highest-rated show, movie, and game
 highest_rated_show = (
     recommendations[recommendations["medium"] == "show"]
@@ -339,3 +339,4 @@ ax2.legend()
 
 plt.tight_layout()
 plt.show()
+"""

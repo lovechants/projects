@@ -1,23 +1,9 @@
 import pandas as pd
-from game_data_fetch import get_token, api_call
+from game_data_fetch import api_call
 from movie_show_data_fetch import (
     get_tmdb_show_data,
     get_tmdb_movie_data,
 )
-import tmdbsimple as tmdb
-
-# Keys
-# Movies and TV database key
-
-k = "56b7978a58b581985e796e2e89fe8ac0"
-tmdb.API_KEY = k
-tmdb.REQUESTS_TIMEOUT = 5  # seconds, for both connect and read
-
-# Game Database Keys
-
-id = "5uw67iqnik8k47weous7kro35u4nud"
-secret = "ahjonjggspq5b1uz5pqi72mv4s5dmj"
-token = get_token(id, secret)
 
 
 def process_data(key, id, secret, token):
